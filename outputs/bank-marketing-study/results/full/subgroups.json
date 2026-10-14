@@ -1,0 +1,117 @@
+[
+  {
+    "model": "mlp_balanced_seed42",
+    "column": "contact",
+    "value": "cellular",
+    "average_precision": 0.5128981241475982,
+    "roc_auc": 0.6674943560451516,
+    "precision": 0.48509266720386784,
+    "recall": 0.56,
+    "f1": 0.5198618307426598,
+    "confusion_matrix": [
+      [
+        2997,
+        1278
+      ],
+      [
+        946,
+        1204
+      ]
+    ],
+    "threshold": 0.5199559926986694,
+    "n": 6425,
+    "prevalence": 0.3346303501945525
+  },
+  {
+    "model": "mlp_balanced_seed42",
+    "column": "contact",
+    "value": "telephone",
+    "average_precision": 0.35760770776164535,
+    "roc_auc": 0.6455941680232148,
+    "precision": 0.47368421052631576,
+    "recall": 0.271356783919598,
+    "f1": 0.3450479233226837,
+    "confusion_matrix": [
+      [
+        650,
+        60
+      ],
+      [
+        145,
+        54
+      ]
+    ],
+    "threshold": 0.5199559926986694,
+    "n": 909,
+    "prevalence": 0.21892189218921893
+  },
+  {
+    "model": "mlp_balanced_seed42",
+    "column": "poutcome",
+    "value": "failure",
+    "average_precision": 0.32251648703032954,
+    "roc_auc": 0.5649943917609871,
+    "precision": 0.49122807017543857,
+    "recall": 0.11991434689507495,
+    "f1": 0.1927710843373494,
+    "confusion_matrix": [
+      [
+        1517,
+        58
+      ],
+      [
+        411,
+        56
+      ]
+    ],
+    "threshold": 0.5199559926986694,
+    "n": 2042,
+    "prevalence": 0.2286973555337904
+  },
+  {
+    "model": "mlp_balanced_seed42",
+    "column": "poutcome",
+    "value": "nonexistent",
+    "average_precision": 0.3423686288128639,
+    "roc_auc": 0.6106681076495293,
+    "precision": 0.34791524265208473,
+    "recall": 0.4824644549763033,
+    "f1": 0.40428911834789516,
+    "confusion_matrix": [
+      [
+        2085,
+        954
+      ],
+      [
+        546,
+        509
+      ]
+    ],
+    "threshold": 0.5199559926986694,
+    "n": 4094,
+    "prevalence": 0.2576941866145579
+  },
+  {
+    "model": "mlp_balanced_seed42",
+    "column": "poutcome",
+    "value": "success",
+    "average_precision": 0.6644636655162866,
+    "roc_auc": 0.4541827864818442,
+    "precision": 0.6800785083415113,
+    "recall": 0.837968561064087,
+    "f1": 0.7508125677139762,
+    "confusion_matrix": [
+      [
+        45,
+        326
+      ],
+      [
+        134,
+        693
+      ]
+    ],
+    "threshold": 0.5199559926986694,
+    "n": 1198,
+    "prevalence": 0.6903171953255426
+  }
+]

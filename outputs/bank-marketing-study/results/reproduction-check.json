@@ -1,0 +1,8 @@
+{
+  "verified_at_utc": "2026-10-14T10:40:43.546979+00:00",
+  "reference": "full",
+  "reproduction": "reproduce",
+  "prediction_arrays_bitwise_equal": 15,
+  "checkpoint_prediction_checks_passed": 7,
+  "scope": "Same-machine CPU reproducibility; not a cross-platform guarantee"
+}

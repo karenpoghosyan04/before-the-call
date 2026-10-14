@@ -1,0 +1,23 @@
+{
+  "python": "3.13.7",
+  "platform": "macOS-26.2-arm64-arm-64bit-Mach-O",
+  "machine": "arm64",
+  "logical_cpus": 8,
+  "hardware": {
+    "machdep.cpu.brand_string": "unavailable in sandbox",
+    "hw.memsize": "unavailable in sandbox",
+    "hw.logicalcpu": "unavailable in sandbox"
+  },
+  "mps_available": false,
+  "mps_built": true,
+  "packages": {
+    "torch": "2.9.0",
+    "scikit-learn": "1.7.2",
+    "pandas": "2.3.3",
+    "numpy": "2.3.4",
+    "matplotlib": "3.10.7",
+    "joblib": "1.5.2",
+    "pytest": "8.4.2",
+    "threadpoolctl": "3.6.0"
+  }
+}

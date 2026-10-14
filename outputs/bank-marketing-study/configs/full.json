@@ -1,0 +1,22 @@
+{
+  "name": "full",
+  "device": "cpu",
+  "threads": 2,
+  "split_fractions": [0.6, 0.2, 0.2],
+  "seed": 42,
+  "repeat_seeds": [42, 43, 44],
+  "max_rows_per_split": null,
+  "mlp": {
+    "hidden": [64, 32],
+    "dropout": 0.1,
+    "weight_decay": 0.0001,
+    "learning_rate": 0.001,
+    "batch_size": 256,
+    "max_epochs": 60,
+    "patience": 8,
+    "min_delta": 0.0001
+  },
+  "class_weight_options": ["none", "balanced"],
+  "logistic_C": 1.0,
+  "tree": {"max_iter": 150, "max_leaf_nodes": 15, "learning_rate": 0.08, "l2_regularization": 1.0}
+}

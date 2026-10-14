@@ -1,0 +1,16 @@
+{
+  "total_seconds": 2.5918735419982113,
+  "fit_and_validation_seconds": {
+    "dummy": 0.004672000010032207,
+    "logistic": 0.02387362500303425,
+    "hist_gradient_boosting": 0.4855236250150483,
+    "mlp_none_seed42": 0.9118284170108382,
+    "mlp_balanced_seed42": 0.28175279099377804,
+    "mlp_balanced_seed43": 0.2701862499816343,
+    "mlp_balanced_seed44": 0.2781633340055123
+  },
+  "device": "cpu",
+  "threads": 2,
+  "completed_at_utc": "2026-10-14T10:33:47.232696+00:00",
+  "selection_sha256": "ddd2fdaa3bebe2a9b03f8ff78967d133b737965fe91c0b136dea26bcc643171a"
+}
